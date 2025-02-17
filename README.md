@@ -12,6 +12,13 @@ and install via
 pip install template-align
 ```
 
+for a editable installation, clone this project and pipinstall it in development mode
+```
+clone git@github.com:mathiaszinnen/template-align.git
+cd template-align
+pip install -e .
+```
+
 ## Usage
 ### Command Line
 
