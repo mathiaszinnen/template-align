@@ -15,9 +15,14 @@ classifiers = [
 ]
 license = {file = "LICENSE"}
 
+dependencies = [
+    "opencv-python",
+    "tqdm",
+    "scikit-image",
+]
 
 [project.urls]
 Homepage = "https://github.com/mathiaszinnen/template-align"
 
 [project.entry-points.console_scripts]
-template-align = "main:align"
+template-align = "main:main"
