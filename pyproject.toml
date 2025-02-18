@@ -25,4 +25,4 @@ dependencies = [
 Homepage = "https://github.com/mathiaszinnen/template-align"
 
 [project.entry-points.console_scripts]
-template-align = "main:main"
+template-align = "template_align.main:main"

@@ -59,7 +59,9 @@ def main():
     parser = argparse.ArgumentParser(description="Aligns images based on a template.")
     parser.add_argument('template', help='Path to the template image file')
     parser.add_argument('input_dir', help='Path to a folder containing the images to be aligned.')
-    parser.add_argument('output_dir', help='Directory to save aligned images and visualizations', default=os.path.join('output','aligned'))
+    parser.add_argument('--output_dir', help='Directory to save aligned images and visualizations', 
+                        default=os.path.join('output','aligned'),
+                        required=False)
     parser.add_argument('--visualize', help='Visualize matches', action='store_true') 
     args = parser.parse_args()
 
