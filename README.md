@@ -37,7 +37,7 @@ Visualizations of the mappings can be enabled via the `--visualize` flag. They w
 template-align PATH/TO/TEMPLATE.jpg PATH/TO/IMAGEDIR --visualize 
 ```
 
-# Python
+### Python
 To align images within python, simply import template-align and invoke the align function:
 ```python
 import os
